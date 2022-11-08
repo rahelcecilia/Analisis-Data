@@ -1,5 +1,5 @@
 # Pemahaman dan Analisis Data
-<strong> Repository ini adalah tugas portofolio saya ketika saya mengikuti Mini Bootcamp Fundamental of Data Analytics dari SkillAcademy. </strong>
+<strong> Sorry I can't share the data because it's out of my control. </strong>
 
 ## Statement 1
 Menampilkan course yang <strong> paling diminati </strong> serta daftar nama peserta yang mengikutinya. 
