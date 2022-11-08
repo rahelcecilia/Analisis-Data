@@ -28,7 +28,6 @@ STRING_AGG(DISTINCT name, ' -- ') AS list_of_name
 FROM sample_order
 Group By course_name
 ORDER BY total_name ASC
-
 ```
 
 <strong> Result : </strong>
