@@ -2,7 +2,8 @@
 <strong> Sorry I can't share the data because it's out of my control. </strong>
 
 ## Statement 1
-Menampilkan course yang <strong> paling diminati </strong> serta daftar nama peserta yang mengikutinya. 
+Menampilkan course yang <strong> paling diminati </strong> serta daftar nama peserta yang mengikutinya. <br> 
+Displays <strong> the most interested courses </strong> as well as a list of participant names.
 
  ``` 
 SELECT course_name,
@@ -20,7 +21,8 @@ ORDER BY total_name DESC
 ---
 
 ## Statement 2
-Menampilkan course yang <strong> paling sedikit peminatnya </strong> serta daftar nama peserta yang mengikutinya.
+Menampilkan course yang <strong> paling sedikit peminatnya </strong> serta daftar nama peserta yang mengikutinya. <br> 
+Displays the course <strong> that  has the least interest in </strong> and a list of participants' names.
 
 ```
 SELECT course_name,
@@ -38,7 +40,8 @@ ORDER BY total_name ASC
 ---
 
 ## Statement 3
-Menampilkan topik yang <strong> paling diminati </strong> serta daftar nama peserta yang mengikutinya.
+Menampilkan topik yang <strong> paling diminati </strong> serta daftar nama peserta yang mengikutinya. <br> 
+Displays topics that are <strong> most interested in </strong> and a list of names of participants who follow them.
 
 ```
 SELECT  topic,
@@ -58,7 +61,8 @@ order by total_name DESC
 ---
 
 ## Statement 4
-Menampilkan topik yang <strong> paling sedikit peminatnya </strong> serta daftar nama peserta yang mengikutinya.
+Menampilkan topik yang <strong> paling sedikit peminatnya </strong> serta daftar nama peserta yang mengikutinya. <br> 
+Displays topics that <strong> have the least interest in </strong> and a list of names of participants who follow them.
 
 ```
 SELECT  topic,
@@ -78,7 +82,8 @@ order by total_name asc
 ---
 
 ## Statement 5
-Menampilkan topik yang termasuk kedalam <strong> level basic </strong>beserta harganya.
+Menampilkan topik yang termasuk kedalam <strong> level basic </strong>beserta harganya. <br> 
+Displays topics that are included in the <strong> basic level </strong> along with their prices.
 
 ```
 SELECT topic, course_name, level, price
@@ -92,7 +97,9 @@ Where level = 'Basic'
 ---
 
 ## Statement 6
-Menampilkan topik yang termasuk kedalam <strong> level intermediate </strong> beserta harganya.
+Menampilkan topik yang termasuk kedalam <strong> level intermediate </strong> beserta harganya. <br> 
+Displays topics that are included in the <strong> intermediate level </strong> along with their prices.
+
 ```
 SELECT topic, course_name, level, price
 from course_table
