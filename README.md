@@ -1,4 +1,6 @@
 # Pemahaman dan Analisis Data
+In September 2022, I participated in "The Fundamentals of Data Analytics" Bootcamp Training. As part of this program, I received a final assignment that involved processing raw data and applying the knowledge and skills I had acquired during the boot camp. Additionally, I was tasked with presenting the results of my assignment.
+
 <strong> Sorry I can't share the data because it's out of my control. </strong>
 
 ## Statement 1
